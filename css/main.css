@@ -69,7 +69,8 @@ a
   text-decoration: none;
 }
 
-body{
+.body{
+  overflow-x: hidden;
   z-index: -9;
   display: flex;
   flex-direction: column;
@@ -80,7 +81,8 @@ body{
   font-weight: 500;
   flex-grow: 1;
   z-index: -2;
-  background-color: #E5E5E5;
+
+  background-color: #f9f8f8;
   background-image: url(../images/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,6 +110,11 @@ body{
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.header-wrapper__start
+{
+  background-color: #f9f8f8;
 }
 
 .header__start
@@ -212,6 +219,7 @@ body{
 
 .header-end
 {
+  background-color: #FFFFFF;
   padding: 20px 0 13px;
   border: 1px solid #F3F3F3;
 }
@@ -284,6 +292,8 @@ body{
 .wrapper__end--tolk
 {
   position: relative;
+  background: transparent;
+  border: none;
   font-size: 16px;
   line-height: 21px;
   color: var(--black-color);
@@ -1000,6 +1010,11 @@ body{
   margin-right: auto;
 }
 
+.site-footer
+{
+  background-color: #F3F3F3;
+}
+
 .feedback__box{
   padding-bottom: 247px;
 }
@@ -1096,6 +1111,7 @@ body{
 {
   display: flex;
   align-items: flex-start;
+  padding-top: 54px;
 }
 
 .footer__logo
@@ -1227,4 +1243,360 @@ body{
   text-align: right;
   margin-left: auto;
   color: #5C5C5C;
+}
+
+
+/* services page start */
+
+
+.our-services
+{
+  padding-bottom:168px;
+}
+
+.our-services__start
+{
+  position: relative;
+  width: 557px;
+  padding: 108px 0 140px 110px;
+}
+
+.our-services__start::after
+{
+  position: absolute;
+  content: "";
+  width: 435px;
+  height: 435px;
+  top: -25px;
+  right: -813px;
+  background-image: url(../images/kisspng-birdcage-budgerigar-cockatiel-parakeet-parrot-5a7c728f7bae43\ 1.png);
+}
+
+.our-services__title
+{
+  margin: 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--black-color);
+}
+
+.our-services__item-text,
+.our-services__text
+{
+  margin: 0;
+  margin-top: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--gray-color);
+}
+
+
+
+
+.our-services__list
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-services__item
+{
+
+  position: relative;
+  margin: 0 auto;
+  width: 305px;
+  margin-top: 34px;
+  padding: 57px 22px 45px 54px;
+  background-color: #FFFFFF;
+  background-image: url(../images/pet-pat.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.our-services__item:hover
+{
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
+}
+
+.our-services__item::before
+{
+  display: block;
+  content: "";
+  width: auto;
+  height: 77px;
+  margin-right: auto;
+  margin-bottom: 22px;
+  background-image: url(../images/doctor.svg);
+  background-repeat: no-repeat;
+
+}
+
+.our-services__item:nth-child(2)::before
+{
+  background-image: url(../images/med-sister.svg);
+}
+
+.our-services__item:nth-child(3)::before
+{
+  background-image: url(../images/outline-opiration.svg);
+}
+
+.our-services__item:nth-child(4)::before
+{
+
+  background-image: url(../images/foutline-dermotoloji.svg);
+}
+
+.our-services__item:nth-child(5)::before
+{
+  background-image: url(../images/veterinary-3\ 1-laborotori.svg);
+}
+
+.our-services__item:nth-child(6)::before
+{
+
+  background-image: url(../images/outline-oftolmoloji.svg);
+}
+
+.our-services__item:nth-child(7)::before
+{
+  background-image: url(../images/filled\ outline-uzi.svg);
+}
+
+.our-services__item:nth-child(8)::before
+{
+
+  background-image: url(../images/Group\ 1-chiping.svg);
+}
+
+.our-services__item:nth-child(9)::before
+{
+  background-image: url(../images/outline-pasports.svg);
+}
+
+.our-services__item:nth-child(10)::before
+{
+
+  background-image: url(../images/filled\ outline-vaksination.svg);
+}
+
+.our-services__item:nth-child(11)::before
+{
+
+  background-image: url(../images/outline-dantist.svg);
+}
+
+.our-services__item:nth-child(12)::before
+{
+
+  background-image: url(../images/veterinary-8\ 1-go-home.svg);
+}
+
+
+.our-services__item-title
+{
+  margin: 0;
+  font-size: 32px;
+  line-height: 34px;
+  color: var(--black-color);
+}
+
+.our-services__item-text
+{
+  margin-top:14px ;
+}
+
+.our-services__item-link
+{
+  display: inline-table;
+  position: relative;
+  margin-top: 26px;
+  padding:15px 29px 14px 30px ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #78C0DE;
+  border-radius: 3px;
+}
+
+.services-link-yellow
+{
+  background-color: var(--orange-color);
+}
+
+.services-link-yellow:hover
+{
+  background-color: #000000;
+}
+
+.services-link-yellow:active
+{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.svim-bar
+{
+  position:relative;
+  display: flex;
+  z-index: 10;
+  width: 850px;
+  height: 648px;
+  margin: 0 auto;
+  padding:119px 51px 137px 70px ;
+  background-color: var(--orange-color);
+  background-image: url(../images/Group\ 64-svim-bar-bg.svg);
+  animation-name: slidedown;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  text-align: center;
+}
+
+.svim-bar__x
+{
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top:21px;
+  left: 20px;
+  background: transparent;
+  background-image: url(../images/Vectorx.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+
+
+.svim-bar__links
+{
+  width: 240px;
+  margin-right: auto;
+  padding: 30px 0;
+
+}
+
+.svim-bar__text
+{
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.svim-bar__link
+{
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-top: 21px;
+  padding: 14px 36px 15px 0;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: end;
+  color: var(--black-color); 
+  background-color: #fff;
+}
+
+.svim-bar__link::before
+{
+  display:block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin: 0 14px 0 auto;
+  background-image: url(../images/google.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.svim-bar__link-second::before
+{
+  background-image: url(../images/Vector-fasebook.svg);
+}
+
+
+.svim-bar__box
+{
+  width: 335px;
+}
+
+.svim-bar__title
+{
+  width: 358px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 50px;
+  line-height: 54px;
+  color: var(--black-color);
+}
+
+
+.svim-bar__input
+{
+  width:333px ;
+}
+
+.svim-bar__button
+{
+  margin-top: 27px;
+  padding: 14px 55px 15px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #000000;
+
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  padding: 50px;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffe6;
+}
+
+.modal-show{
+  display: block;
+}
+
+.body--opacity
+{
+  opacity: 0.2;
+}
+
+
+@keyframes slidedown {
+
+  from{
+    transform: translateY(-2000px);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+
 }
