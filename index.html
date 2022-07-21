@@ -33,9 +33,6 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
     
     <div class="header-end">
@@ -47,12 +44,12 @@
           <nav class="wrapper__end--nav">
             <ul class="wrapper__end--nav-list nav-list">
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#">
+                <a class="nav-list__link" href="./index.html">
                   Главная
                 </a>
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#">
+                <a class="nav-list__link" href="./compani.html">
                   О Клинике
                 </a>
               </li>
@@ -62,24 +59,24 @@
                 </a>
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#">
+                <a class="nav-list__link" href="./blog.html">
                   Полезные Статьи
                 </a>
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#">
+                <a class="nav-list__link" href="./faq.html">
                   FAQ
                 </a>
               </li>
               <li class="nav-list__item">
-                <a class="nav-list__link" href="#">
+                <a class="nav-list__link" href="./contacts.html">
                   Контакты
                 </a>
               </li>
+            
             </ul>
           </nav>
-  
-          <button href="#" class="wrapper__end--tolk">
+          <button href="#" class="wrapper__end--tolk js-modal-open-button">
             Задать вопрос
           </button>
         </div>
@@ -391,7 +388,7 @@
 
     </section>
   </main>
-
+ 
   <footer class="site-footer footer">
     <div class="container">
       <div class="footer__box">
@@ -473,6 +470,48 @@
     </div>
   </footer>
 
+<div class="modal">
+  <div class="svim-bar">
+    <button class="svim-bar__x js-close-modal">
+    </button>
 
+    <div class="svim-bar__links">
+      <p class="svim-bar__text">
+        Авторизация:
+      </p>
+
+      <a class="svim-bar__link" href="#">
+        Войти через Google
+      </a>
+      
+      <a class="svim-bar__link svim-bar__link-second" href="#">
+        Войти через Facebook
+      </a>
+    </div>
+
+    <div class="svim-bar__box">
+      <h3 class="svim-bar__title">
+        Задать вопрос
+      </h3>
+      <form class="feedback__rectangle" action="http://echo.htmlacademy.ru/courses/"  autocomplete="off">    
+
+        <label>
+          <input class="feedback__input svim-bar__input" type="text" name="user-name" aria-label="enter your name"
+          placeholder="Ваше имя" required>
+        </label>
+
+        <textarea class="feedback__quastin" name="user-quastion" cols="43" rows="11" aria-label="enter-your-quastion" placeholder="Опишите Ваш вопрос." >
+        </textarea>
+        <button class="svim-bar__button">
+          Отправить 
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <script src="js/main.js"></script>
 </body>
 </html>
+

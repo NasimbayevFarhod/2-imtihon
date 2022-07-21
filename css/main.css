@@ -52,6 +52,8 @@ html{
   box-sizing: border-box;
 }
 
+
+
 img{
   display: block;
   height: auto;
@@ -69,7 +71,7 @@ a
   text-decoration: none;
 }
 
-.body{
+body{
   overflow-x: hidden;
   z-index: -9;
   display: flex;
@@ -81,7 +83,6 @@ a
   font-weight: 500;
   flex-grow: 1;
   z-index: -2;
-
   background-color: #f9f8f8;
   background-image: url(../images/bg.png);
   background-size: cover;
@@ -977,7 +978,6 @@ a
 .article__item-bg {
   display: inline-block;
   width: 305px;
-
   background-image: url(../images/Rectangle\ 25-two-dogs.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1600,3 +1600,498 @@ a
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-services__start::after
+{
+  position: absolute;
+  content: "";
+  width: 474px;
+  height: 335px;
+  top: 30px;
+  right: -670px;
+  background-image: url(../images/Group\ 66-blog-hiro-cat.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blog-hiro__title
+{
+  width: 560px;
+}
+
+
+.blog-second__box
+{
+  display: flex;
+  width: 100%;
+}
+
+.blog-second__bg
+{
+  width: 550px;
+  background-size:cover;
+}
+
+.blog-second__inner
+{
+  width: 750px;
+  padding: 68px 100px 68px 82px;
+}
+
+.blog-second__item-box
+{
+  margin-bottom: 35px;
+}
+
+.blog-second__title
+{
+  width: 325px;
+  font-size: 30px;
+line-height: 38px;
+}
+
+.blog-second__text
+{
+  width: 517px;
+  margin: 20px 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq-hero
+{
+
+}
+
+
+
+.faq-hero__box
+{
+  position: relative;
+  padding:108px  0 63px 110px;
+}
+
+.faq-hero__box::after
+{
+  position: absolute;
+  content: "";
+  width: 569px;
+  height: 466px;
+  top: 59px;
+  right: -90px;
+  background-image:url(../images/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1-faq-hiro-cat.png);
+  background-repeat: no-repeat;
+}
+
+.faq-hero__title
+{
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: var(--black-color);
+}
+
+.faq-hero__text
+{
+  width: 447px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray-color);
+}
+
+.link-blue
+{
+  width: 201px;
+  display: flex;
+  align-items: center;
+  background-color: #78C0DE;
+}
+
+
+
+.faq__list
+{
+  position: relative;
+  padding-bottom: 270px;
+}
+
+.faq__list::after
+{
+  position: absolute;
+  content: "";
+  width: 569px;
+  height: 500px;
+  top: 500px;
+  right:0;
+  background-image:url(../images/Group\ 67-faq-kalibri.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq__list-item
+{
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.faq_list-details
+{
+  width: 750px;
+  background-color: #fff;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+}
+
+.faq__item-summary
+{
+  position: relative;
+  list-style: none;
+  padding: 31px 112px 23px 63px;
+}
+
+.faq__item-start
+{
+display: flex;
+align-items: center;
+}
+
+.dait
+{
+  position: relative;
+  padding-left: 34px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.dait::before
+{
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 21px;
+  left: 0;
+  background-image: url(../images/pet-faq-pat.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq__list-item:nth-child(2n) .faq_list-details .faq__item-summary .faq__item-start .dait::before
+{
+  background-image: url(../images/pet-faq-blue.svg);
+}
+
+.faq__list-item:nth-child(3n)
+{
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+.faq__name
+{
+  margin: 0;
+  margin-left: 28px;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+}
+
+.faq__item-title
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.faq__item-title::after
+{
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 8px;
+  top: 4px;
+  right: -90px;
+  background-image: url(../images/arrowfaq-v.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq_list-details[open] .faq__item-title::after
+{
+  transform: rotate(180deg);
+}
+
+.faq__list-item:nth-child(3n) .faq_list-details[open] .faq__item-title::after
+{
+  transform: none;
+}
+
+.summary-box
+{
+  display: flex;
+  padding: 0 112px  75px 63px;
+}
+
+.dn
+{
+  display: none;
+}
+
+.summary-box__text
+{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.contacts-hero-start
+{
+  padding-bottom: 220px;
+}
+
+.contacts-hero-start::after
+{
+  position: absolute;
+  content: "";
+  width: 487px;
+  height: 548px;
+  top: 18px;
+  right: -800px;
+  background-image: url(../images/Group\ 68-contacts-hero-dog.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.contacts-hero__inner-box
+{
+  display: flex;
+}
+
+
+.contacts-hero__adres::before
+{
+  position: absolute;
+  content: "";
+  width: 73px;
+  height: 73px;
+  left: 0;
+  top: -100px;
+  right: 0;
+  background-image: url(../images/location.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+.contacts-hero__time-box
+{
+  margin:0 108px;
+}
+
+.contacts-hero__time-box::before
+{
+  position: absolute;
+  content: "";
+  width: 76px;
+  height: 71px;
+  left: 0;
+  top: -100px;
+  right: 0;
+  background-image: url(../images/calendar-calendar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.contacts-hero__tel-box
+{
+  margin:0 ;
+}
+
+.contacts-hero__tel-box::before
+{
+  position: absolute;
+  content: "";
+  width: 46px;
+  height: 73px;
+  left: 0;
+  top: -100px;
+  right: 0;
+  background-image: url(../images/phone\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+
+.contact
+{
+  padding: 395px 0 206px;
+}
+
+.contact__title
+{
+  margin: 0;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  color: #333333;
+}
+
+.contact__inner
+{
+  position: relative;
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+}
+
+.contact__inner::before
+{
+  position: absolute;
+  content: "";
+  width: 443px;
+  height: 342px;
+  top: -295px;
+  left: 23px;
+  background-image: url(../images/kisspng-pug-puppy-stock-photography-pet-dog-breed-pug-5abf80861beb51\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact__inner::after
+{
+  position: absolute;
+  content: "";
+  width: 934.44px;
+  height: 329.49px;
+  top: -400px;
+  left: 426px;
+  background-image: url(../images/Group\ 70-contact-befor.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact__img
+{
+  display: block;
+  width: 769px;
+  height: 466px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
